@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1> Hello World!</h1>
+        <h1 lang="ru"> Привет Мир!</h1>
+    </header>
+    <main>
+        <a href="contacts.html">Contacts</a>
+        <img src="Img/hr73.jpg" alt="Hrvatska Dreem">
+        <p> Ехал <b class="Name"> Грека </b> через реку </p>
+        <a href="http://www.google.com"> This is google </a>
+        <p> Ехал <i> Грека </i> через реку </p>
+        <p> Ехал <strong> Грека </strong> через реку </p>
+        <p> Ехал <em> Грека </em> через реку </p>
+        <p> Ехал <small> Грека </small> через реку </p>
+        <section>
+            <h2>Tables</h2>
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Product_1</th>
+                    <th>Product_2</th>
+                </tr>
+                <tr>
+                    <th>Quorter_1</th>
+                    <td>1</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <th>Quorter_2</th>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <th>Total</th>
+                    <td colspan="2">10 </td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h2>Forms</h2>
+            <form method="POST" action="https://formspree.io/alexshura@gmail.com">
+                <label for="client-name">Client name</label>
+                <input type="text" name="client-name" placeholder="Client Name" id="client-name" required>
+                <br>
+                <label> Email adress:
+                <input type="email" name="client-email" placeholder="Client Email" required>
+                </label> 
+                <br>
+                <label> Gender </label>
+                <label>
+                <input type="radio" name="gender" value="male">Male
+                </label>
+                <label>
+                <input type="radio" name="gender" value="female">FeMale
+                </label>
+                <label>
+                <input type="radio" name="gender" value="other" checked>Other
+                </label>
+                <br>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        <h3>contacts</h3>
+    </footer>
+    <article>
+        <header>
+            <h2>Learning HTML5</h2>
+        </header>
+        <p>Here comes my text</p>
+        <footer>
+            <p>Published <time datetime="2016-03-19">March 19, 2016</time></p>
+        </footer>
+    </article>
+</body>
+
+</html>
